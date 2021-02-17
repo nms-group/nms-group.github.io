@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>room size</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/modal_help.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <div class="page-bg">
+    <!-- modal section hear -->
+    <div id="modal-fun" class="modal-container-bg">
+      <div class="modal-window">
+        <h1 class="modal-title">Adjusting the room size</h1>
+        <span id="m-btn-close" class="modal-btn-close"></span>
+        <div class="modal-left-content-box"></div>
+        <div class="modal-right-content-box">
+          <h1 class="modal-container-content-title">How to adjust the dimensions:</h1>
+          <p class="modal-container-description">Press and drag the corner handles until the dimensions match your actual room measurements.</p>
+          <h1 class="modal-container-content-title">How to add an angled wall:</h1>
+          <p class="modal-container-description">If your room has an angled wall or other obstacle simply click the "Create angled wall" button. Click once on the corner you need to change, then press and drag the corner handle to adjust the dimensions. Repeat to add more angled walls.</p>
+        </div>
+        <div id="m-btn-ok" class="modal-btn-ok">ok</div>
+      </div>
+    </div>
+    <!-- main grid section 1140px -->
+    <div class="app-grid">
+      <div class="brand-section">
+        <div>
+          <h1 class="app-name"><b>Easy</b>Plan<span>&trade;</span> Clickmat</h1>
+          <h1 class="app-name-mirror"><b>Easy</b>Plan<span>&trade;</span> Clickmat</h1>
+        </div>
+        <div>
+          <img src="/img/veria-logo.png" alt="logo">
+        </div>
+      </div>
+      <!-- button controller section  -->
+      <div class="controler-section">
+        <div id="btn-1" class="btn-start btn-text-active"><a href="/">Start here</a></div>
+        <div id="btn-2" class="btn-active-state btn-text-active"><a href="/room-shape.html">Room Shape</a></div>
+        <div id="btn-3" class="btn-active-state btn-text-active"><a href="#you_are_on_this_page">Room Size</a></div>
+        <div id="btn-4" class="btn btn-text-static"><a href="#">Cold Spots</a></div>
+        <div id="btn-5" class="btn btn-text-static"><a href="#">Floor Type</a></div>
+        <div id="btn-6" class="btn btn-text-static"><a href="#">Thermostat</a></div>
+        <div id="btn-7" class="btn-result btn-text-static"><a href="#">Result</a></div>
+      </div>
+      <!-- info block -->
+      <div class="info-section">
+        <div>
+          <h2>Adjust Room Size</h2>
+          <p>Adjust the dimensions to match your actual room measurements.
+            Make sure to be as accurate as possible when dimensioning the room to ensure reliable results.
+            If you right-click anywhere on the room you can zoom in and thus make it easier to adjust the room's exact size. Remember to zoom out when finished.
+          </p>
+        </div>
+        <div class="ellipse-faq-btn">?</div>
+      </div>
+      <!-- content block -->
+      <div class="content-section-grid">
+        <div class="constructor-box">
+          <span id="square"></span>
+        </div>
+        <div class="button-box">
+          <div id="btn-create-angle" class="box_btn-style">Create angled wall</div>
+          <div id="bnt-labels" class="box_btn-style">Show/hide labels</div>
+          <div id="btn-help" class="box_btn-style-black">Need help?</div>
+          <div id="room-size-count">15,3 m<sup>2</sup></div>
+          <div class="btn-next-step" id="btn-continue"><a href="#">Continue</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- ---end--- main grid section 1140px ---end--- -->
+  </div>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/modal/help.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview');
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+
+

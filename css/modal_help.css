@@ -1,0 +1,122 @@
+.modal-container-bg {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  margin: 0;
+  padding: 0;
+  background: rgba(48, 48, 48, 0.53);
+  visibility: hidden;
+}
+
+.modal-window {
+  position: absolute;
+  width: 920px;
+  height: 565px;
+  left: 0px;
+  bottom: 0px;
+  right: 0;
+  top: 0px;
+  margin: auto;
+  background: linear-gradient(0deg, #FFFCFC, #FFFCFC), linear-gradient(180deg, rgba(252, 252, 252, 0) 0%, #FCFCFC 49.48%, rgba(252, 252, 252, 0) 100%);
+  opacity: 0.93;
+  border: 1px solid #999292;
+  box-sizing: border-box;
+  box-shadow: 1px 6px 6px rgba(0, 0, 0, 0.15), inset 0px -6px 11px rgba(0, 0, 0, 0.25), inset 0px 6px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.modal-title {
+    display: inline-block;
+    margin: 32px 0 40px 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+
+}
+
+.modal-btn-close {
+  float: right;
+}
+
+.modal-left-content-box {
+  clear: both;
+  width: 270px;
+  height: 423px;
+  background-image: url(/img/modal_help_square-size.png);
+  background-position: center;
+  overflow: hidden;
+  border-radius: 7px;
+  float: left;
+  margin-left: 28px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.modal-right-content-box {
+  float: right;
+  width: 575px;
+  height: 423px;
+  margin-right: 28px;
+  background: linear-gradient(180deg, #DAD7D7 0%, #EBEBEB 4.69%, #F0EEEE 17.71%, #FFFFFF 51.56%, #DAD7D7 89.58%, #BABABA 100%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+}
+
+.modal-right-content-box>h1, .modal-right-content-box>p  {
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
+.modal-container-content-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin: 26px 0 10px 0;
+}
+
+.modal-container-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  margin: 0;
+}
+
+.modal-btn-close {
+  background: url(/img/close_button_x.svg);
+  width: 11px;
+  height: 11px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.modal-btn-ok {
+  width: 109px;
+  height: 44px;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(251,166,0,1) 0.02%, rgba(252,219,0,1) 100%);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 45px;
+  text-align: center;
+  color: #595454;
+  bottom: -4%;
+  right: -2%;
+  cursor: pointer;
+}
